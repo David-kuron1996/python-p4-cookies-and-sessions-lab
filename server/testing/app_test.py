@@ -54,4 +54,3 @@ class TestApp:
             assert(response.status_code == 401)
             assert(response.get_json().get('message') == 
                 'Maximum pageview limit reached')
-
